@@ -1,0 +1,3 @@
+[submodule "src/linux/azure-auto-recover"]
+	path = src/linux/azure-auto-recover
+	url = https://github.com/malachma/azure-auto-recover
