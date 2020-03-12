@@ -5,6 +5,7 @@ cd /tmp
 
 while true; do
     wget -q --no-cache https://raw.githubusercontent.com/malachma/azure-auto-recover/master/base.sh
+    #wget -q --no-cache https://raw.githubusercontent.com/malachma/repair-script-library/tree/sub-alar/src/linux/azure-auto-recover/master/base.sh
     if [[ $? -eq 0 ]]; then
         echo "File base.sh fetched"
         break # the file got fetched, otherwise we try this again
