@@ -8,9 +8,8 @@
 
 #/bin/bash
 
-curl -L https://github.com/Azure/ALAR/releases/download/v0.7.0-ALPHA/alar2 --output /tmp/alar2
-cd /tmp
-chmod 700 alar2
-RUST_LOG=debug ./alar2 $@
+curl -s -o run-alar.sh -L https://raw.githubusercontent.com/Azure/ALAR/refs/heads/ALAR-redesign/run-alar.sh
+chmod 700 run-alar.sh
+./run-alar.sh $@
 
 exit $?
