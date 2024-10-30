@@ -8,7 +8,7 @@
 
 #/bin/bash
 
-curl -s -o run-alar.sh -L https://raw.githubusercontent.com/Azure/ALAR/refs/heads/ALAR-redesign/run-alar.sh
+wget https://raw.githubusercontent.com/Azure/ALAR/refs/heads/ALAR-redesign/run-alar.sh
 chmod 700 run-alar.sh
 ./run-alar.sh $@
 
